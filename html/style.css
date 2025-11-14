@@ -1,0 +1,248 @@
+.cont{
+    background-color: #181818;
+    width:30vw;
+    height: 70vh;
+    border-radius: 15px;
+    position: absolute;
+    top: 15vh;
+    left: 35vw;
+    display: none;
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    user-select: none;
+    border: 3px solid #2D2D2D;
+    box-shadow:
+        0 0 5px #2D2D2D,
+        0 0 5px #2d2d2d,
+        inset 0 0 5px #2D2D2D;
+    border-radius: 15px;
+}   
+
+.blue{
+    color: #2C2C2C
+}
+
+.red{
+    color: #2C2C2C
+}
+
+.sendbutton{
+    width: 80%;
+    height: 7%;
+    border-radius: 10px;
+    background-color: #212023;
+    color: white;
+    font-size: 4vh;
+    margin-top: 5px;
+        border: 3px solid #2C2C2C
+}
+
+.headTxt{
+    font-size: 4vh;
+}
+
+.btn{
+    background-color: #212023;
+    float: left;
+    width: 30%;
+    height: 5%;
+    font-size: 3vh;
+    text-align: center;
+        border: 3px solid #2C2C2C
+}
+
+.btns{
+    margin-left: 7%;
+}
+
+.left{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-right: 5px solid black;
+        border: 3px solid #2C2C2C
+}
+
+.right{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-left: 5px solid black;
+        border: 3px solid #2C2C2C
+}
+
+.txt{
+    color: white;
+    font-size: 3vh;
+    margin-left: 50px;
+}
+.inpt{
+    width: 90%;
+    border:none;
+    outline: none;
+    box-shadow: none;
+    margin-left: 30px;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 5px;
+    border: 3px solid #2C2C2C;
+    background-color: rgb(68, 68, 68);
+        color: white;
+}
+
+.inpt2{
+    width: 90%;
+    border:none;
+    outline: none;
+    box-shadow: none;
+    margin-left: 30px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 5px;
+    height: 50%;
+    resize: none;
+    border: 3px solid #2C2C2C;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+
+.sendbuttonred{
+    background-color: #212023;
+    width: 95%;
+    height: 11%;
+    border-radius: 10px;
+    color: white;
+    font-size: 3vh;
+    margin-top: 5px;
+    margin-left: 2%;
+        box-shadow:
+        0 0 5px #2D2D2D,
+        0 0 5px #2d2d2d,
+        inset 0 0 5px #2D2D2D;
+}
+.txt2{
+    font-size: 2vh;
+    margin-left: 70px;
+}
+
+#reportsMenu{
+    width: 100%;
+    height: 80%;
+    overflow-y: auto;
+    background-color: #181818; 
+}
+.repmHead{
+    font-size: 4vh;
+}
+
+.btnr{
+    background-color: #212023;
+    float: left;
+    width: 30%;
+    height: 5%;
+    font-size: 3vh;
+    text-align: center;
+        border: 3px solid #2C2C2C
+}
+
+.btnb{
+    background-color: #212023;
+    float: right;
+    width: 30%;
+    height: 5%;
+    font-size: 3vh;
+    text-align: center;
+    border: 3px solid #2C2C2C;
+        
+}
+
+.inpt3{
+    width: 90%;
+    border:none;
+    outline: none;
+    box-shadow: none;
+    margin-left: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 20%;
+    resize: none;
+    word-break: break-all; 
+    background-color: rgb(68, 68, 68);
+    margin-top: 10%;
+    border: 3px solid #2C2C2C;
+        color: white;
+}
+
+.chat{
+    width: 90%;
+    border:none;
+    outline: none;
+    box-shadow: none;
+    margin-left: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 50%;
+    resize: none;
+    word-break: break-all; 
+    background-color: rgb(68, 68, 68);
+    margin-top: 7%;
+    justify-content: flex-end;
+    overflow-y: auto;
+}
+
+.inpt4{
+    width: 70%;
+    outline: none;
+    box-shadow: none;
+    margin-left: 35px;
+    height: 50px;
+    font-size: 40px;
+    border-radius: 5px;
+    border: 5px;
+    border-color: #222222;
+    margin-top: 10px;
+    border: 3px solid #2C2C2C;
+    background-color: rgb(68, 68, 68);
+    color: white;
+}
+.btnsend{
+    width: 20%;
+    height: 40px;
+    font-size: 30px;
+    background-color: #212023;
+    margin-left: -10px;
+    margin-top: 10px;
+    border: 3px solid #2C2C2C;
+    text-align: center;
+}
+
+.chatcont{
+    width: 90%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #212023;
+    margin-top: 7px;
+    box-shadow:
+        0 0 5px #2D2D2D,
+        0 0 5px #2d2d2d,    
+        inset 0 0 5px #2D2D2D;
+}
+.chatcont2{
+    width: 90%;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #212023;
+    margin-top: 7px;
+    box-shadow:
+        0 0 5px #2D2D2D,
+        0 0 5px #2d2d2d,
+        inset 0 0 5px #2D2D2D;
+}
+.btnsend2{
+    width: 20%;
+    height: 40px;
+    font-size: 30px;
+    background-color: #212023;
+    margin-left: -10px;
+    margin-top: 10px;
+    border: 3px solid #2C2C2C;
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Noto+Sans+Bhaiksuki&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ </head>
+    <body>
+        <div class="cont" id="menu">
+            <center><div class="headTxt"><a class="blue">MD</a><a>DEV</a></div></center>
+            <center><div class="headTxt"><a>REPORT</a><a class="blue">MENU</a></div></center>
+            <div class="btns"><div class="btn left" onclick="setType(1)" id="type1">Player</div><div class="btn" onclick="setType(2)" id="type2">BUG</div><div class="btn right" onclick="setType(3)" id="type3">OTHER</div></div>
+            <div class="txt">Title</div>
+            <input id="head" type="text" maxlength="25" class="inpt">
+            <div class="txt">Information</div>
+            <textarea id="info" type="text" maxlength="270" class="inpt2"></textarea>
+            <center><div onclick="send()" class="sendbutton">SEND REPORT</div></center>
+        </div>
+        <div class="cont" id="admin">
+            <center><div class="headTxt"><a class="red">MD</a><a>DEV</a></div></center>
+            <center><div class="headTxt"><a>REPORT</a><a class="red">MENU</a></div></center>
+            <div id="reportsMenu"></div>
+        </div>
+        <div class="cont" id="reportmenu">
+            <div class="repmHead"><a id="ID"></a><a> - </a><a id="HEAD"></a><a> - </a><a id="TIME"></a></div>
+            <div class="btns"><div class="btnr left" onclick="action(0)">Teleport</div><div class="btnr" onclick="action(1)">start solving</div><div class="btnr right" onclick="action(2)">Mark As Done</div></div>
+            <div id="INFO" class="inpt3"></div>
+            <div id="chat" class="chat"></div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <input id="msgInp" type="text" class="inpt4">
+                <div onclick="sendMsg(0)" class="btnsend">SEND</div>
+            </div>
+        </div>
+        <div class="cont" id="menu2">
+            <div class="repmHead"></a><a id="HEAD2"></a><a> - </a><a id="TIME2"></a><div class="btnb right" onclick="closeReportPlayer()">DELETE Report</div></div>
+            <div id="INFO2" class="inpt3"></div>
+            <div id="chat2" class="chat"></div>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <input id="msgInp2" type="text" class="inpt4">
+                <div onclick="sendMsg(1)" class="btnsend2">SEND</div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
